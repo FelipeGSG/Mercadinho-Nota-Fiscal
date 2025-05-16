@@ -1,0 +1,213 @@
+:root{
+    --corVerdeEscuro: #2c5032;
+    --corVerdeFundo: #e1ffd5 ;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e estilo básico */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  var(--corVerdeFundo) /*#f4f4f4*/;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--corVerdeEscuro);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 30px 70px;
+    min-height: 80vh;
+}
+
+h1 > img{
+    position: relative;
+    top: 7px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Estilos para as categorias */
+.categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: var(--corVerdeFundo);
+}
+
+.categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-card {
+    background-color: transparent;
+    padding: 10px;
+    width: 130px;
+    min-height: fit-content;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-bottom: 1px solid gray;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+    background-color: rgb(245, 255, 243);
+}
+.categoriaFoco{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+}
+.category-card h3 {
+    font-size: 1.4em;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Estilos para a seção de produtos */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cardProduto{
+    background-color: #f4ffef;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.cardProduto div, .btnVoltar{
+    background-color: #f39c12;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    color: white;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 20px;
+}
+.btnVoltar{
+    margin: 10px auto;
+    width: 150px;
+    font-size: 1.35em;
+}
+#carrinho button{
+    background-color: #f39c12;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    margin: 5px 0;
+    transition: .3s;
+}
+#carrinho button:hover, 
+#carrinho button:disabled{
+    filter: brightness(0.8);
+}
+
+.cardProduto button{
+    background-color: transparent;
+    font-size: 1.5em;
+    color: white;
+    border: 0;
+    height: fit-content;
+}
+
+.productImage{
+    height: 300px;
+    aspect-ratio: 7 / 9;
+    padding: 20px;
+}
+
+.product-card button {
+    background-color: #f39c12;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #e67e22;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#carrinho{
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    width: 400px;
+    min-height: 250px;
+    max-height: 750px;
+    overflow: auto;
+    background-color: aliceblue;
+}

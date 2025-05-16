@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoGoods</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 onclick="window.location.href('index.html')"><img src="imagens/logo_mercado.png" alt="logo" width="50"> EcoGoods</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a onclick="calcularCarrinho()">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="categories">
+            <h2>Escolha a Categoria</h2>
+            <div class="category-list">
+                <div class="category-card" onclick="showProducts('Bebidas')">
+                    <h3>Bebidas</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Cereais')">
+                    <h3>Cereais</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Doces')">
+                    <h3>Doces</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Frutas')">
+                    <h3>Frutas</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Higiene')">
+                    <h3>Higiene</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Laticinios')">
+                    <h3>Laticínios</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Limpeza')">
+                    <h3>Limpeza</h3>
+                </div>
+                <div class="category-card" onclick="showProducts('Sucos')">
+                    <h3>Sucos</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="product-section" style="display: none;">
+
+            <h2>Produtos Disponíveis</h2>
+            <button onclick="showProducts('all')" class="btnVoltar">Voltar</button>
+            <div class="product-list" id="product-list">
+                <!-- Produtos serão gerados aqui -->
+            </div>
+        </section>
+    </main>
+
+    <div id="carrinho">
+        <div>
+            <button onclick="fecharCarrinho()">Fechar</button>
+        </div>
+        <div id="produtos">
+
+        </div>
+        <div>
+            <button onclick="finalizarCompra()" id="btnComprar" disabled>Finalizar compra</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EcoGoods | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
