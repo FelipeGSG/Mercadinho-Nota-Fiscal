@@ -143,6 +143,18 @@ nav ul li a:hover {
     width: 150px;
     font-size: 1.35em;
 }
+#carrinho{
+    position: fixed;
+    display: none;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    width: 400px;
+    min-height: 250px;
+    max-height: 500px;
+    overflow: auto;
+    background-color: aliceblue;
+}
 #carrinho button{
     background-color: #f39c12;
     padding: 5px;
@@ -157,17 +169,35 @@ nav ul li a:hover {
     margin: 5px 0;
     transition: .3s;
 }
+#produtos{
+    border-bottom: 1px solid #2c3e50;
+    min-height: 200px;
+    max-height: 380px;
+    overflow: auto;
+}
+#btnComprar{
+    margin: 0px 0px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
 #carrinho button:hover, 
 #carrinho button:disabled{
     filter: brightness(0.8);
 }
 
 .cardProduto button{
+    width: 30px;
+    height: 30px;
     background-color: transparent;
     font-size: 1.5em;
     color: white;
     border: 0;
     height: fit-content;
+    transition: .3s;
+    border-radius: 50%;
+}
+.cardProduto button:hover{
+    scale: 1.4;
 }
 
 .productImage{
@@ -184,7 +214,7 @@ nav ul li a:hover {
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 .product-card button:hover {
@@ -200,14 +230,3 @@ footer {
     width: 100%;
 }
 
-#carrinho{
-    position: fixed;
-    right: 0;
-    top: 0;
-    padding: 30px;
-    width: 400px;
-    min-height: 250px;
-    max-height: 750px;
-    overflow: auto;
-    background-color: aliceblue;
-}

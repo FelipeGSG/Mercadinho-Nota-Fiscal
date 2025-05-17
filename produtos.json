@@ -240,7 +240,7 @@
         "imagem": "<img class='productImage' src='imagens/bebidas/cerveja lager.png' alt=\"Cerveja Lager 473ml\">"
       },
       {
-        "produto": "Chá Gelado Limão 1,5L",
+        "produto": "Chá Gelado Limão 1.5L",
         "precoUnitario": 6.40,
         "categoria": "Bebidas",
         "imagem": "<img class='productImage' src='imagens/bebidas/cha gelado.png' alt=\"Chá Gelado Limão 1,5L\">"

@@ -28,9 +28,9 @@ fetch("produtos.json").then(response => response.json())
 
         const rowButtons = document.createElement("div")
         rowButtons.innerHTML = `
-        <button onclick='retirar("${i}", ${i})'>-</button>
+        <button class="btn-qnt" onclick='retirar("${i}", ${i})'>-</button>
         <span id="contadorProduto${i}">0</span>
-        <button onclick='colocar("${i}", ${i})'>+</button>
+        <button class="btn-qnt" onclick='colocar("${i}", ${i})'>+</button>
         `
 
         div.innerHTML += img
@@ -115,14 +115,18 @@ function retirar(index, iSpan){
         carrinho[index][0]--
     }
     document.getElementById(`contadorProduto${iSpan}`).innerHTML = carrinho[index][0]
+    calcularCarrinho()
 }
 function colocar(index, iSpan){
     carrinho[index][0]++
     document.getElementById(`contadorProduto${iSpan}`).innerHTML = carrinho[index][0]
+    calcularCarrinho()
 }
 
-function calcularCarrinho(){
-    document.getElementById("carrinho").style.display = "block"
+function calcularCarrinho(mostrar = false){
+    if(mostrar){
+        document.getElementById("carrinho").style.display = "block"
+    }
     let valores = []
     carrinho.forEach(produto =>{
         if(produto[0] != 0){
@@ -133,7 +137,7 @@ function calcularCarrinho(){
     const elCarrinho = document.getElementById("produtos")
     elCarrinho.innerHTML = ""
 
-    if(valores == []){
+    if(valores.length == 0){
         return
     }
 
@@ -156,11 +160,11 @@ function calcularCarrinho(){
         elCarrinho.appendChild(div)
     })
 
-    elCarrinho.innerHTML += `<p>Total da compra: R$${total}</p>` 
+    total = total.toFixed(2)
+    elCarrinho.innerHTML += `<strong style="display:block;margin: 4px 0px;">Total da compra: R$${total}</strong>` 
 
     valores.push(total)
     localStorage.setItem("compra", valores)
-
     document.getElementById("btnComprar").disabled = false
 }
 
@@ -169,5 +173,8 @@ function fecharCarrinho(){
 }
 
 function finalizarCompra() {
-    
+    const elCarrinho = document.getElementById("produtos")
+    if(elCarrinho.innerHTML !== ""){
+        window.location.href = "notaFiscal.html"
+    }
 }

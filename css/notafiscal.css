@@ -19,24 +19,32 @@ body {
 
 /* Cabeçalho */
 header {
-  position: absolute;
+  /* position: absolute; */
+  width: 100%;
   top: 0;
-    background-color: var(--corVerdeEscuro);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  background-color: var(--corVerdeEscuro);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: white;
 }
-
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header .logo h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 
 @media print {
   body {
     margin: 0;
+  }
+  header, footer, button{
+    display: none;
   }
   .nota-fiscal {
     box-shadow: none;
@@ -54,7 +62,7 @@ body {
 }
 
 .nota-fiscal {
-  margin-top: 120px;
+  margin-top: 60px;
   min-width: 300px;
   padding: 20px;
   background: white;
@@ -63,6 +71,9 @@ body {
   font-size: 13px;
   color: #000;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.nota-fiscal img{
+  filter: saturate(0);
 }
 
 .nf-header,
@@ -98,4 +109,26 @@ main{
   margin: 0 auto;
   max-width: 500px;
   position: static;
+}
+
+footer{
+  margin: 50px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+footer button{
+    background-color: #f39c12;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:  0.3s;
+}
+footer button:hover{
+  scale: 1.2;
 }
