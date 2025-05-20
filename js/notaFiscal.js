@@ -1,4 +1,9 @@
 var compra = localStorage.getItem("compra")
+
+if(compra == null){
+  window.location.href = "index.html"
+}
+
 compra = compra.split(",")
 
 var produtos = [] 
@@ -42,7 +47,7 @@ function gerar(pdf = false, print = false) {
   // const main = document.querySelector("main")
   const notaFiscal = document.querySelector(".nota-fiscal")
   notaFiscal.style.padding = "20px"
-  notaFiscal.style.margin = "20px"
+  notaFiscal.style.margin = "30px auto"
 
   if (pdf) html2pdf().from(notaFiscal).save();
   else if (print) window.print();

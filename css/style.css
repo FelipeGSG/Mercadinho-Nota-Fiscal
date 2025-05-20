@@ -25,6 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: fixed;
+    width: 100%;
+    height: 85px;
 }
 
 header .logo h1 {
@@ -60,6 +63,7 @@ nav ul li a:hover {
 
 /* Estilos para as categorias */
 .categories {
+    margin-top: 85px;
     padding: 40px 20px;
     text-align: center;
     background-color: var(--corVerdeFundo);
@@ -136,7 +140,7 @@ nav ul li a:hover {
     color: white;
     font-size: 1.2em;
     border: 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .btnVoltar{
     margin: 10px auto;
