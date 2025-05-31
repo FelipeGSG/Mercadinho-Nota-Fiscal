@@ -126,11 +126,27 @@ nav ul li a:hover {
 }
 .cardProduto{
     background-color: #f4ffef;
-    /* border: 1px solid black; */
     border-radius: 10px;
+    max-width: 200px;
 }
-
-.cardProduto div, .btnVoltar{
+.cardProduto .informacoes{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.cardProduto .informacoes p{
+    height: fit-content;
+    margin: 5px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.cardProduto .informacoes p:first-of-type{
+    height: 55px;
+}
+.cardProduto .informacoes p:last-of-type{
+    font-weight: 600;
+}
+.cardProduto .rowButtons, .btnVoltar{
     background-color: #f39c12;
     padding: 10px;
     display: flex;
@@ -141,6 +157,8 @@ nav ul li a:hover {
     font-size: 1.2em;
     border: 0;
     border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 .btnVoltar{
     margin: 10px auto;
@@ -205,9 +223,9 @@ nav ul li a:hover {
 }
 
 .productImage{
-    height: 300px;
-    aspect-ratio: 7 / 9;
-    padding: 20px;
+    height: 220px;
+    aspect-ratio: 7 / 8;
+    padding: 10px;
 }
 
 .product-card button {
@@ -233,4 +251,11 @@ footer {
     text-align: center;
     width: 100%;
 }
-
+footer a{
+    margin: 5px 10px;
+    color: lightcyan;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: aquamarine;
+}

@@ -18,7 +18,13 @@ fetch("produtos.json").then(response => response.json())
         div.classList.add("cardProduto")
         div.setAttribute("data-category", produto.categoria)
 
-        var img = produto.imagem
+        const img = document.createElement("img")
+        img.classList.add("productImage")
+        img.alt = produto.produto
+        img.src = produto.imagem
+
+        const informacoes = document.createElement("div")
+        informacoes.classList.add("informacoes")
 
         const nome = document.createElement("p")
         nome.innerHTML = "<br>" + produto.produto
@@ -26,16 +32,19 @@ fetch("produtos.json").then(response => response.json())
         const preco = document.createElement("p")
         preco.innerHTML = "<br>R$" + produto.precoUnitario.toFixed(2).padEnd(2, 0).toString().replace(".", ",")
 
+        informacoes.appendChild(nome)
+        informacoes.appendChild(preco)
+
         const rowButtons = document.createElement("div")
+        rowButtons.classList.add("rowButtons")
         rowButtons.innerHTML = `
         <button class="btn-qnt" onclick='retirar("${i}", ${i})'>-</button>
         <span id="contadorProduto${i}">0</span>
         <button class="btn-qnt" onclick='colocar("${i}", ${i})'>+</button>
         `
 
-        div.innerHTML += img
-        div.appendChild(nome)
-        div.appendChild(preco)
+        div.appendChild(img)
+        div.appendChild(informacoes)
         div.appendChild(rowButtons)
 
         productList.appendChild(div)

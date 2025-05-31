@@ -3,289 +3,289 @@
       "produto": "Maçã Gala",
       "precoUnitario": 3.49,
       "categoria": "Frutas",
-      "imagem": "<img class='productImage' src='imagens/frutas/maca_gala.png' alt=\"Maçã Gala\">"
+      "imagem": "imagens/frutas/maca_gala.png"
     },
     {
       "produto": "Banana Prata",
       "precoUnitario": 2.29,
       "categoria": "Frutas",
-      "imagem": "<img class='productImage' src='imagens/frutas/banana_prata.png' alt=\"Banana Prata\">"
+      "imagem": "imagens/frutas/banana_prata.png"
     },
     {
       "produto": "Laranja Pera",
       "precoUnitario": 2.79,
       "categoria": "Frutas",
-      "imagem": "<img class='productImage' src='imagens/frutas/Laranja-pera.png' alt=\"Laranja Pera\">"
+      "imagem": "imagens/frutas/Laranja-pera.png"
     },
     {
       "produto": "Leite Integral 1L",
       "precoUnitario": 4.19,
       "categoria": "Laticinios",
-      "imagem": "<img class='productImage' src='imagens/laticineos/leite integral.png' alt=\"Leite Integral 1L\">"
+      "imagem": "imagens/laticineos/leite integral.png"
     },
     {
       "produto": "Iogurte Natural 170g",
       "precoUnitario": 1.99,
       "categoria": "Laticinios",
-      "imagem": "<img class='productImage' src='imagens/laticineos/Iogurte natural.png' alt=\"Iogurte Natural 170g\">"
+      "imagem": "imagens/laticineos/Iogurte natural.png"
     },
     {
       "produto": "Queijo Mussarela kg",
       "precoUnitario": 28.90,
       "categoria": "Laticinios",
-      "imagem": "<img class='productImage' src='imagens/laticineos/queijo mussarela.png' alt=\"Queijo Mussarela kg\">"
+      "imagem": "imagens/laticineos/queijo mussarela.png"
     },
     {
       "produto": "Doce de Leite 400g",
       "precoUnitario": 6.50,
       "categoria": "Doces",
-      "imagem": "<img class='productImage' src='imagens/doces/doce de leite.png' alt=\"Doce de Leite 400g\">"
+      "imagem": "imagens/doces/doce de leite.png"
     },
     {
       "produto": "Chocolate ao Leite 90g",
       "precoUnitario": 4.75,
       "categoria": "Doces",
-      "imagem": "<img class='productImage' src='imagens/doces/chocolate ao leite.png' alt=\"Chocolate ao Leite 90g\">"
+      "imagem": "imagens/doces/chocolate ao leite.png"
     },
     {
       "produto": "Bala de Gelatina 100g",
       "precoUnitario": 2.10,
       "categoria": "Doces",
-      "imagem": "<img class='productImage' src='imagens/doces/bala_gelatina.jpg' alt=\"Bala de Gelatina 100g\">"
+      "imagem": "imagens/doces/bala_gelatina.jpg"
     },
     {
       "produto": "Suco de Uva Integral 1L",
       "precoUnitario": 9.90,
       "categoria": "Sucos",
-      "imagem": "<img class='productImage' src='imagens/sucos/suco_uva.png' alt=\"Suco de Uva Integral 1L\">"
+      "imagem": "imagens/sucos/suco_uva.png"
     },
     {
       "produto": "Suco de Laranja 1L",
       "precoUnitario": 6.80,
       "categoria": "Sucos",
-      "imagem": "<img class='productImage' src='imagens/sucos/suco_laranja.png' alt=\"Suco de Laranja 1L\">"
+      "imagem": "imagens/sucos/suco_laranja.png"
     },
     {
       "produto": "Suco de Maçã 200ml",
       "precoUnitario": 2.99,
       "categoria": "Sucos",
-      "imagem": "<img class='productImage' src='imagens/sucos/suco_maca.png' alt=\"Suco de Maçã 200ml\">"
+      "imagem": "imagens/sucos/suco_maca.png"
     },
     {
       "produto": "Desodorante Aerosol 150ml",
       "precoUnitario": 8.50,
       "categoria": "Higiene",
-      "imagem": "<img class='productImage' src='imagens/higiene/desodorante.png' alt=\"Desodorante Aerosol 150ml\">"
+      "imagem": "imagens/higiene/desodorante.png"
     },
     {
       "produto": "Shampoo 350ml",
       "precoUnitario": 12.99,
       "categoria": "Higiene",
-      "imagem": "<img class='productImage' src='imagens/higiene/shampoo.png' alt=\"Shampoo 350ml\">"
+      "imagem": "imagens/higiene/shampoo.png" 
     },
     {
       "produto": "Sabonete em Barra 90g",
       "precoUnitario": 1.45,
       "categoria": "Higiene",
-      "imagem": "<img class='productImage' src='imagens/higiene/sabonete.png' alt=\"Sabonete em Barra 90g\">"
+      "imagem": "imagens/higiene/sabonete.png"
     },
     {
       "produto": "Refrigerante Cola 2L",
       "precoUnitario": 7.25,
       "categoria": "Bebidas",
-      "imagem": "<img class='productImage' src='imagens/bebidas/coca2l.png' alt=\"Refrigerante Cola 2L\">"
+      "imagem": "imagens/bebidas/coca2l.png"
     },
     {
       "produto": "Água Mineral 500ml",
       "precoUnitario": 1.20,
       "categoria": "Bebidas",
-      "imagem": "<img class='productImage' src='imagens/bebidas/agua.png' alt=\"Água Mineral 500ml\">"
+      "imagem": "imagens/bebidas/agua.png"
     },
     {
       "produto": "Cerveja Pilsen 350ml",
       "precoUnitario": 2.79,
       "categoria": "Bebidas",
-      "imagem": "<img class='productImage' src='imagens/bebidas/cerveja.png' alt=\"Cerveja Pilsen 350ml\">"
+      "imagem": "imagens/bebidas/cerveja.png"
     },
     {
       "produto": "Detergente Líquido 500ml",
       "precoUnitario": 2.19,
       "categoria": "Limpeza",
-      "imagem": "<img class='productImage' src='imagens/limpeza/detergente.png' alt=\"Detergente Líquido 500ml\">"
+      "imagem": "imagens/limpeza/detergente.png"
     },
     {
       "produto": "Sabão em Pó 1kg",
       "precoUnitario": 7.90,
       "categoria": "Limpeza",
-      "imagem": "<img class='productImage' src='imagens/limpeza/sabao_po.png' alt=\"Sabão em Pó 1kg\">"
+      "imagem": "imagens/limpeza/sabao_po.png"
     },
     {
       "produto": "Desinfetante 2L",
       "precoUnitario": 5.30,
       "categoria": "Limpeza",
-      "imagem": "<img class='productImage' src='imagens/limpeza/desinfetante.png' alt=\"Desinfetante 2L\">"
+      "imagem": "imagens/limpeza/desinfetante.png" 
     },
     {
       "produto": "Arroz Branco 5kg",
       "precoUnitario": 21.90,
       "categoria": "Cereais",
-      "imagem": "<img class='productImage' src='imagens/cereais/arroz.png' alt=\"Arroz Branco 5kg\">"
+      "imagem": "imagens/cereais/arroz.png"
     },
     {
       "produto": "Feijão Carioca 1kg",
       "precoUnitario": 7.60,
       "categoria": "Cereais",
-      "imagem": "<img class='productImage' src='imagens/cereais/feijao.png' alt=\"Feijão Carioca 1kg\">"
+      "imagem": "imagens/cereais/feijao.png"
     },
     {
       "produto": "Aveia em Flocos 250g",
       "precoUnitario": 4.30,
       "categoria": "Cereais",
-      "imagem": "<img class='productImage' src='imagens/cereais/aveia.png' alt=\"Aveia em Flocos 250g\">"
+      "imagem": "imagens/cereais/aveia.png"
     },
     {
         "produto": "Pera Williams",
         "precoUnitario": 4.29,
         "categoria": "Frutas",
-        "imagem": "<img class='productImage' src='imagens/frutas/pera.png' alt=\"Pera Williams\">"
+        "imagem": "imagens/frutas/pera.png"
       },
       {
         "produto": "Manga Palmer",
         "precoUnitario": 3.95,
         "categoria": "Frutas",
-        "imagem": "<img class='productImage' src='imagens/frutas/manga.png' alt=\"Manga Palmer\">"
+        "imagem": "imagens/frutas/manga.png"
       },
       {
         "produto": "Abacaxi Pérola",
         "precoUnitario": 6.49,
         "categoria": "Frutas",
-        "imagem": "<img class='productImage' src='imagens/frutas/abacaxi.png' alt=\"Abacaxi Pérola\">"
+        "imagem": "imagens/frutas/abacaxi.png"
       },
       {
         "produto": "Requeijão Cremoso 200g",
         "precoUnitario": 5.60,
         "categoria": "Laticinios",
-        "imagem": "<img class='productImage' src='imagens/laticineos/requeijao.png' alt=\"Requeijão Cremoso 200g\">"
+        "imagem": "imagens/laticineos/requeijao.png"
       },
       {
         "produto": "Leite Desnatado 1L",
         "precoUnitario": 4.39,
         "categoria": "Laticinios",
-        "imagem": "<img class='productImage' src='imagens/laticineos/leite desnatado.png' alt=\"Leite Desnatado 1L\">"
+        "imagem": "imagens/laticineos/leite desnatado.png"
       },
       {
         "produto": "Queijo Prato kg",
         "precoUnitario": 30.10,
         "categoria": "Laticinios",
-        "imagem": "<img class='productImage' src='imagens/laticineos/queijo prato.png' alt=\"Queijo Prato kg\">"
+        "imagem": "imagens/laticineos/queijo prato.png"
       },
       {
         "produto": "Paçoca Rolha 100g",
         "precoUnitario": 3.15,
         "categoria": "Doces",
-        "imagem": "<img class='productImage' src='imagens/doces/paçoca.png' alt=\"Paçoca Rolha 100g\">"
+        "imagem": "imagens/doces/paçoca.png"
       },
       {
         "produto": "Gelatina de Morango 25g",
         "precoUnitario": 1.29,
         "categoria": "Doces",
-        "imagem": "<img class='productImage' src='imagens/doces/gelatina de morango.png' alt=\"Gelatina de Morango 25g\">"
+        "imagem": "imagens/doces/gelatina de morango.png"
       },
       {
         "produto": "Tablete de Chocolate Meio Amargo 90g",
         "precoUnitario": 5.10,
         "categoria": "Doces",
-        "imagem": "<img class='productImage' src='imagens/doces/chocolate amargo.png' alt=\"Tablete de Chocolate Meio Amargo 90g\">"
+        "imagem": "imagens/doces/chocolate amargo.png"
       },
       {
         "produto": "Suco de Abacaxi 1L",
         "precoUnitario": 6.95,
         "categoria": "Sucos",
-        "imagem": "<img class='productImage' src='imagens/sucos/suco_abacaxi.jpg' alt=\"Suco de Abacaxi 1L\">"
+        "imagem": "imagens/sucos/suco_abacaxi.jpg"
       },
       {
         "produto": "Suco Detox Verde 1L",
         "precoUnitario": 8.25,
         "categoria": "Sucos",
-        "imagem": "<img class='productImage' src='imagens/sucos/suco_detox.png' alt=\"Suco Detox Verde 1L\">"
+        "imagem": "imagens/sucos/suco_detox.png"
       },
       {
         "produto": "Suco de Maracujá 500ml",
         "precoUnitario": 4.10,
         "categoria": "Sucos",
-        "imagem": "<img class='productImage' src='imagens/sucos/suco_maracuja.png' alt=\"Suco de Maracujá 500ml\">"
+        "imagem": "imagens/sucos/suco_maracuja.png"
       },
       {
         "produto": "Escova de Dente Macia",
         "precoUnitario": 3.99,
         "categoria": "Higiene",
-        "imagem": "<img class='productImage' src='imagens/higiene/escova.jpg' alt=\"Escova de Dente Macia\">"
+        "imagem": "imagens/higiene/escova.jpg"
       },
       {
         "produto": "Creme Dental 90g",
         "precoUnitario": 2.85,
         "categoria": "Higiene",
-        "imagem": "<img class='productImage' src='imagens/higiene/creme dental.png' alt=\"Creme Dental 90g\">"
+        "imagem": "imagens/higiene/creme dental.png"
       },
       {
         "produto": "Fio Dental 50m",
         "precoUnitario": 5.10,
         "categoria": "Higiene",
-        "imagem": "<img class='productImage' src='imagens/higiene/fio dental.png' alt=\"Fio Dental 50m\">"
+        "imagem": "imagens/higiene/fio dental.png"
       },
       {
         "produto": "Cerveja Lager 473ml",
         "precoUnitario": 4.30,
         "categoria": "Bebidas",
-        "imagem": "<img class='productImage' src='imagens/bebidas/cerveja lager.png' alt=\"Cerveja Lager 473ml\">"
+        "imagem": "imagens/bebidas/cerveja lager.png"
       },
       {
         "produto": "Chá Gelado Limão 1.5L",
         "precoUnitario": 6.40,
         "categoria": "Bebidas",
-        "imagem": "<img class='productImage' src='imagens/bebidas/cha gelado.png' alt=\"Chá Gelado Limão 1,5L\">"
+        "imagem": "imagens/bebidas/cha gelado.png"
       },
       {
         "produto": "Energético 250ml",
         "precoUnitario": 7.10,
         "categoria": "Bebidas",
-        "imagem": "<img class='productImage' src='imagens/bebidas/energetico.png' alt=\"Energético 250ml\">"
+        "imagem": "imagens/bebidas/energetico.png"
       },
       {
         "produto": "Esponja Multiuso c/ 3 unidades",
         "precoUnitario": 3.40,
         "categoria": "Limpeza",
-        "imagem": "<img class='productImage' src='imagens/limpeza/esponja.png' alt=\"Esponja Multiuso c/ 3 unidades\">"
+        "imagem": "imagens/limpeza/esponja.png"
       },
       {
         "produto": "Álcool Líquido 70% 1L",
         "precoUnitario": 6.90,
         "categoria": "Limpeza",
-        "imagem": "<img class='productImage' src='imagens/limpeza/alcool.png' alt=\"Álcool Líquido 70% 1L\">"
+        "imagem": "imagens/limpeza/alcool.png"
       },
       {
         "produto": "Lustra Móveis 500ml",
         "precoUnitario": 9.80,
         "categoria": "Limpeza",
-        "imagem": "<img class='productImage' src='imagens/limpeza/lustra moveis.png' alt=\"Lustra Móveis 500ml\">"
+        "imagem": "imagens/limpeza/lustra moveis.png"
       },
       {
         "produto": "Granola Tradicional 1kg",
         "precoUnitario": 14.90,
         "categoria": "Cereais",
-        "imagem": "<img class='productImage' src='imagens/cereais/granola.png' alt=\"Granola Tradicional 1kg\">"
+        "imagem": "imagens/cereais/granola.png"
       },
       {
         "produto": "Cereal Matinal de Milho 250g",
         "precoUnitario": 5.60,
         "categoria": "Cereais",
-        "imagem": "<img class='productImage' src='imagens/cereais/cereal.png' alt=\"Cereal Matinal de Milho 250g\">"
+        "imagem": "imagens/cereais/cereal.png"
       },
       {
         "produto": "Farinha de Aveia 500g",
         "precoUnitario": 7.20,
         "categoria": "Cereais",
-        "imagem": "<img class='productImage' src='imagens/cereais/farinha aveia.png' alt=\"Farinha de Aveia 500g\">"
+        "imagem": "imagens/cereais/farinha aveia.png"
       }
   ]
   
